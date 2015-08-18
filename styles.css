@@ -1,0 +1,109 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('chunkfive-webfont.eot');
+    src: url('chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('chunkfive-webfont.woff2') format('woff2'),
+         url('chunkfive-webfont.woff') format('woff'),
+         url('chunkfive-webfont.ttf') format('truetype'),
+         url('chunkfive-webfont.svg#chunkfiveroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+	font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "chunkfiveroman";
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+h1.page-title, h3.page-subtitle{
+	text-shadow: 2px 2px 5px #000;
+}
+h2{
+  padding-top: 1em;
+  color: #1C459E;
+}
+
+p{
+  font-family: "chunkfiveroman";
+}
+
+time{
+	font-size: 23px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: -.01em;
+	-webkit-font-smoothing: antialiased;
+}
+.logo{
+  text-align: center;
+}
+
+.logo img{
+  margin: auto;
+}
+
+.header{
+    height: calc(100vh);
+    border-top: 7px solid #52ffa9;
+    background: url("https://farm3.staticflickr.com/2909/14230464630_b2ed7c0100_k.jpg") no-repeat fixed;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.mdl-layout__content{
+    background-color: #ddd;
+    border-top: 7px solid #eee;
+}
+
+.page-content{
+	margin: auto;
+}
+
+.mdl-card{
+	display: table-cell;
+}
+
+.page-content p{
+    opacity: .87;
+    text-align: center;
+    line-height: 40px;
+    color: #000;
+    font-size: 23px;
+    font-weight: 300;
+    margin: 2rem 10rem;
+    letter-spacing: -.01em;
+    -webkit-font-smoothing: antialiased;
+}
+
+.section-event-date{
+	height: 140px;
+	padding: 28px 0;
+	background-color: #52ffa9;
+	text-align: center;
+	color: #333;
+	font-family: "Montserrat";
+	font-weight: bold;
+}
+
+.form-signup{
+  background: rgba(8, 49, 112, 0.75);
+}
+
+.button-view-more{
+  width: 100%;
+}
+
+.page-venue{
+  background-color: #52ffa9;
+}
+.page-video, .page-map, .page-contact-button{
+  padding: 0 10rem 3em 10em;
+}
