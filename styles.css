@@ -44,18 +44,20 @@ time{
 }
 .logo{
   text-align: center;
-}
-
-.logo img{
   margin: auto;
 }
 
+.logo img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .header{
-    height: calc(100vh);
-    border-top: 7px solid #52ffa9;
-    background: url("https://farm3.staticflickr.com/2909/14230464630_b2ed7c0100_k.jpg") no-repeat fixed;
+    height: calc(100vh - 7px);
+    border-top: 7px solid #5fcbec;
+    background: url("bg_2.jpg") no-repeat fixed;
     background-size: cover;
-    min-height: 500px;
 }
 
 .mdl-layout__content{
@@ -78,7 +80,7 @@ time{
     color: #000;
     font-size: 23px;
     font-weight: 300;
-    margin: 2rem 10rem;
+    margin: 2rem 0;
     letter-spacing: -.01em;
     -webkit-font-smoothing: antialiased;
 }
@@ -86,7 +88,7 @@ time{
 .section-event-date{
 	height: 140px;
 	padding: 28px 0;
-	background-color: #52ffa9;
+	background-color: #5fcbec;
 	text-align: center;
 	color: #333;
 	font-family: "Montserrat";
@@ -102,8 +104,27 @@ time{
 }
 
 .page-venue{
-  background-color: #52ffa9;
+  background-color: #5fcbec;
 }
 .page-video, .page-map, .page-contact-button{
-  padding: 0 10rem 3em 10em;
+  /*padding: 0 10rem 3em 10em;*/
+}
+
+.image-credits{
+  bottom: 0;
+  position: absolute;
+  background-color: rgba(0,0,0,0.8);
+  /*width: 100%;*/
+  font-size: x-small;
+}
+.image-credits a{
+  padding: 1em;
+  color: #fff;
+}
+.page-map small{
+  display: block;
+  text-align: center;
+}
+.page-map small a{
+  margin: 1em;
 }
