@@ -110,6 +110,24 @@ time{
   /*padding: 0 10rem 3em 10em;*/
 }
 
+.page-video {
+  margin: 0.5em;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0;
+  overflow: hidden;
+}
+
+.page-video iframe,
+.page-video object,
+.page-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .image-credits{
   bottom: 0;
   position: absolute;
